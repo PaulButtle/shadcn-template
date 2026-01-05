@@ -27,6 +27,7 @@ import {
   ChevronLeft,
   ChevronRight,
   LogOut,
+  FileText,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
@@ -88,6 +89,11 @@ const NAV_ITEMS: NavItem[] = [
     title: "Users",
     href: "/users",
     icon: Users,
+  },
+  {
+    title: "Template",
+    href: "/template",
+    icon: FileText,
   },
   {
     title: "Settings",
